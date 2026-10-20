@@ -1,0 +1,81 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #111111;
+}
+
+.container {
+    width: 100%;
+    padding: 16px 4px;
+}
+
+h1 {
+    font-size: 26px;
+    margin: 0 0 26px;
+    font-weight: bold;
+}
+
+.joke-card {
+    width: 100%;
+    min-height: 158px;
+    padding: 28px 24px;
+    border: 1px solid #eeeeee;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.12);
+    margin-bottom: 22px;
+}
+
+.joke-question {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.5;
+    margin: 12px 0 18px;
+}
+
+.joke-answer {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.navigation {
+    display: flex;
+    gap: 10px;
+    padding-left: 4px;
+}
+
+.btn {
+    border: none;
+    border-radius: 7px;
+    padding: 12px 22px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+.btn-back {
+    background-color: #6c757d;
+}
+
+.btn-next {
+    background-color: #3478f6;
+}
+
+.btn:hover {
+    filter: brightness(0.92);
+}
+
+.counter {
+    margin: 6px 0 0;
+    font-size: 16px;
+    font-weight: bold;
+}
